@@ -23,7 +23,9 @@ pnpm tauri dev
 ## Signup for GitHub and Google OAuth
 Follow these guides from Supabase. If these guides ask for a website, just link your github or a google doc
 - [GitHub](https://supabase.com/docs/guides/auth/social-login/auth-github)
-- [Google](https://supabase.com/docs/guides/auth/social-login/auth-google)
+- [Google](https://supabase.com/docs/guides/auth/social-login/auth-google#configuration-web)
+
+For Google, remember to add your email as a testing account.
 
 ## How we deal with OAuth
 The trickiest part about OAuth is the redirect in a desktop app. Once a user finishes authorizing on Google, where do we link them to? Deeplinks are a common concept in mobile apps but Tauri is still a WIP on this.
