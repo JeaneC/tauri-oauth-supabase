@@ -12,7 +12,7 @@ Supabase has a generous free tier so you should be able to use this for your pro
 ## Setup
 After cloning the repo, please make sure to do the part on [database schema setup](https://supabase.com/docs/guides/getting-started/tutorials/with-react#set-up-the-database-schema). This will create the backend for your app.
 
-Then make sure to clone our `.env.local.example` to create a new `.env.local`. In there, configure your [env items from Supabase](https://supabase.com/docs/guides/getting-started/tutorials/with-react#get-the-api-keys).
+Then make sure to clone our `.env.local.example` to create a new `.env.local`. In there, configure your [env items from Supabase](https://supabase.com/docs/guides/getting-started/tutorials/with-react#get-the-api-keys). Remember to configure this again when you deploy to prod!
 
 Finally,
 ```
